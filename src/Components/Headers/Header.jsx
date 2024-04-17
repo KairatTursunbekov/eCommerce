@@ -23,7 +23,6 @@ export const Header = () => {
 
         {cartOpen && <div className="shop-cart">
         <Cart />
-        {/* <h1>Kairat</h1> */}
         </div>}
       </div>
       <div className="presentation"></div>

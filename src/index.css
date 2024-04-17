@@ -59,6 +59,7 @@ header .shop-cart {
   -webkit-box-shadow:4px 5px 15px -7px #606060;
   box-shadow: 4px 5px 15px -7px #606060;
   float: left;
+  max-height: 600px;
 }
 
 header .presentation {
@@ -90,6 +91,12 @@ header .presentation::before {
   font-size: 15px;
   font-weight: 600;
   color: #fff;
+}
+.btns{
+ 
+  border-radius: 50%;
+  text-align: center;
+  font-size: 12px;
 }
 
 .main{

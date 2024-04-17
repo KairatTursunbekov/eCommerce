@@ -3,7 +3,7 @@ import { Card } from '../Card/Сard'
 import { data } from '../data'
 
 export const Items = () => {
-    console.log(data)
+    // console.log(data)
   return (
     <div className='main'>
         {

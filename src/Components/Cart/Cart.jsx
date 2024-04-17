@@ -1,6 +1,6 @@
 import React from 'react'
 import { useCart } from 'react-use-cart'
-import { FaTrashCan } from "react-icons/fa6";
+
 
 export const Cart = () => {
     const {
@@ -30,16 +30,43 @@ export const Cart = () => {
                           {el.price}$
                         </td>
                         <td style={{ fontWeight: "600" }}>({el.quantity})</td>
-                        <td>
-                          {<FaTrashCan className='shop-cart-button' style={{cursor: 'pointer'}} onClick={updateItemQuantity(el.id)} />}
+                        <td style={{ gap: "10px" }}>
+                          <button
+                            style={{
+                              height: "40px",
+                              width: "40px",
+                              borderRadius: "50%",
+                              marginLeft: "-10px",
+                              marginRight: "10px",
+                            }}
+                            onClick={() =>
+                              updateItemQuantity(el.id, el.quantity + 1)
+                            }
+                            className="btn btn-success"
+                          >
+                            +
+                          </button>
+                          <button
+                            style={{
+                              height: "40px",
+                              width: "40px",
+                              borderRadius: "50%",
+                            }}
+                            onClick={() =>
+                              updateItemQuantity(el.id, el.quantity - 1)
+                            }
+                            className="btn btn-danger">
+                            -
+                          </button>
                         </td>
                       </tr>
                     );
                 })
             }
         </table>
-        <div>
+        <div style={{ margin: '15px'}}>
             <h2>Сумма: {cartTotal}$</h2>
+            <button className="btn btn-danger" onClick={()=> emptyCart()}>Clear</button>
         </div>
     </section>
   )
