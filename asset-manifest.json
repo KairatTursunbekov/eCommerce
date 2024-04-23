@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/eCommerce/static/css/main.6fc871ef.css",
-    "main.js": "/eCommerce/static/js/main.03236c9e.js",
+    "main.js": "/eCommerce/static/js/main.d88b40c8.js",
     "static/media/bed.jpg": "/eCommerce/static/media/bed.cd41a84dd1297cf93206.jpg",
     "static/media/coffee.jpg": "/eCommerce/static/media/coffee.4111bdfe8eaf08e7301f.jpg",
     "static/media/img2.jpg": "/eCommerce/static/media/img2.825cc5887d59243df59e.jpg",
@@ -10,10 +10,10 @@
     "static/media/img5.jpg": "/eCommerce/static/media/img5.dcfc2a0eab92f9b48999.jpg",
     "index.html": "/eCommerce/index.html",
     "main.6fc871ef.css.map": "/eCommerce/static/css/main.6fc871ef.css.map",
-    "main.03236c9e.js.map": "/eCommerce/static/js/main.03236c9e.js.map"
+    "main.d88b40c8.js.map": "/eCommerce/static/js/main.d88b40c8.js.map"
   },
   "entrypoints": [
     "static/css/main.6fc871ef.css",
-    "static/js/main.03236c9e.js"
+    "static/js/main.d88b40c8.js"
   ]
 }
